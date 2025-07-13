@@ -1,0 +1,379 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Greetings",
+        "Hey there",
+        "Hi Cura",
+        "Hello Cura",
+        "Hey bot",
+        "Hi assistant",
+        "Yo",
+        "What's up?",
+        "Hey, are you there?",
+        "Can you help me?",
+        "I need some medical advice",
+        "Can I ask you a health question?",
+        "Is this Cura?",
+        "Are you a doctor?"
+      ],
+      "responses": [
+        "Hello! I'm Cura, your medical assistant. How can I help you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Farewell",
+        "Catch you later",
+        "See ya",
+        "Talk to you later",
+        "Bye Cura",
+        "Good night",
+        "Goodbye assistant"
+      ],
+      "responses": [
+        "Goodbye! If you have more health questions, just ask. Take care!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank you so much",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you Cura",
+        "Thanks for your help",
+        "Cheers",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome! If you need more medical advice, just ask."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase?",
+        "Sorry, I can't understand. Can you provide more details?",
+        "I'm not sure I understand. Please ask another medical question."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name",
+        "Do you have a name?"
+      ],
+      "responses": [
+        "I am Cura, your virtual medical assistant.",
+        "You can call me Cura.",
+        "My name is Cura, and I'm here to help with health questions."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I have a headache",
+        "I'm feeling dizzy",
+        "I have a fever",
+        "My stomach hurts",
+        "I feel nauseous",
+        "I have a sore throat",
+        "I'm coughing",
+        "I have a cold",
+        "I feel tired",
+        "I have chills",
+        "I have a runny nose",
+        "I have a blocked nose",
+        "I feel weak",
+        "I have body aches",
+        "I have a rash",
+        "I have diarrhea",
+        "I have vomiting",
+        "I feel sick",
+        "I have pain in my chest",
+        "I have back pain",
+        "I'm not feeling well",
+        "I'm feeling unwell",
+        "I'm feeling sick",
+        "I don't feel good",
+        "I'm experiencing symptoms",
+        "Can you help me with my symptoms?",
+        "What should I do if I feel sick?",
+        "I'm not sure what's wrong with me",
+        "I feel off today",
+        "I'm feeling under the weather",
+        "I have some health issues",
+        "I feel pain in my body",
+        "I feel discomfort"
+      ],
+      "responses": [
+        "I'm sorry you're not feeling well. Could you please describe all your symptoms, how long you've had them, and if anything makes them better or worse? This will help me give you the best advice. If you have chest pain, trouble breathing, or severe symptoms, please seek medical help immediately. Remember, I'm here to support you, but I can't replace a doctor for urgent or serious issues."
+      ]
+    },
+    {
+      "tag": "covid19",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "Tell me about coronavirus",
+        "What should I do if I have COVID symptoms?",
+        "How do I know if I have COVID?",
+        "What are the signs of COVID?",
+        "What should I do if I test positive for COVID?",
+        "How can I protect myself from COVID?",
+        "What is coronavirus?",
+        "COVID precautions",
+        "COVID-19 advice"
+      ],
+      "responses": [
+        "Common symptoms of COVID-19 include fever, cough, tiredness, and loss of taste or smell. If you think you may have COVID-19, please get tested and follow local health guidelines. If you have trouble breathing, seek medical help immediately."
+      ]
+    },
+    {
+      "tag": "first_aid",
+      "patterns": [
+        "What should I do for a burn?",
+        "How do I treat a cut?",
+        "First aid for bleeding",
+        "How to stop a nosebleed?",
+        "What to do if someone faints?",
+        "How to treat a sprain?",
+        "What to do for a bruise?",
+        "How to treat a blister?",
+        "How to treat a minor wound?",
+        "First aid for insect bite"
+      ],
+      "responses": [
+        "For minor burns, cool the area under running water for at least 10 minutes. For serious burns, seek medical help immediately. For cuts, clean the wound with water, apply pressure to stop bleeding, and cover with a sterile bandage. If someone faints, lay them down and raise their legs. If they don't recover quickly, seek medical help. For a nosebleed, sit upright and pinch your nose just above the nostrils for 10-15 minutes. For a sprain, rest the area, apply ice, compress with a bandage, and elevate it."
+      ]
+    },
+    {
+      "tag": "medicine_advice",
+      "patterns": [
+        "Can I take paracetamol?",
+        "Is it safe to take ibuprofen?",
+        "What medicine should I take for a headache?",
+        "Can I take antibiotics for a cold?",
+        "What can I take for a sore throat?",
+        "What can I take for a fever?",
+        "What can I take for a cold?",
+        "What can I take for stomach pain?",
+        "What medicine is good for cough?",
+        "What can I take for allergies?",
+        "What can I take for diarrhea?",
+        "What can I take for nausea?",
+        "What can I take for vomiting?",
+        "What can I take for body aches?",
+        "What can I take for back pain?",
+        "What can I take for muscle pain?"
+      ],
+      "responses": [
+        "For most people, paracetamol (acetaminophen) can help with pain or fever. Always follow the dosage instructions on the package. Ibuprofen can help with pain and inflammation, but check with your doctor if you have any medical conditions or are taking other medications. For a sore throat, you can try warm salt water gargles, throat lozenges, or paracetamol for pain relief. For a cold, rest, stay hydrated, and you may use paracetamol or ibuprofen for fever or aches. Decongestants and saline nasal sprays can help with congestion. For mild stomach pain, try to rest and stay hydrated. If pain persists, worsens, or is severe, consult a healthcare professional. Antibiotics do not work for viral infections like the common cold. For cough, try honey (if not allergic), warm fluids, and throat lozenges. If cough persists, consult a doctor. For allergies, antihistamines like cetirizine or loratadine may help. Always follow the instructions and consult a doctor if unsure. For diarrhea, stay hydrated and consider oral rehydration solutions. If severe or persistent, see a doctor. For nausea or vomiting, rest and sip clear fluids. If it continues, seek medical advice."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I'm feeling anxious",
+        "I feel depressed",
+        "I'm stressed",
+        "How can I improve my mental health?",
+        "Tips for anxiety",
+        "I feel sad",
+        "I feel lonely",
+        "How to deal with stress?",
+        "How to relax?",
+        "How to sleep better?",
+        "How to feel better emotionally?"
+      ],
+      "responses": [
+        "It's important to talk to someone you trust about how you're feeling. Practicing relaxation techniques, regular exercise, and maintaining a healthy routine can help with stress and anxiety. If your feelings persist, consider reaching out to a mental health professional."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "What should I do in a medical emergency?",
+        "Emergency number",
+        "Who should I call in an emergency?",
+        "Help, it's urgent",
+        "I need urgent help",
+        "What to do if someone is unconscious?",
+        "What to do if someone is not breathing?",
+        "What to do in case of heart attack?",
+        "What to do in case of stroke?"
+      ],
+      "responses": [
+        "If you or someone else is experiencing a medical emergency, please call your local emergency number immediately. Your safety is the top priority. For urgent medical help, contact emergency services right away. If someone is not breathing, start CPR if you are trained. If you suspect a heart attack or stroke, call emergency services immediately. Acting quickly can save lives."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What is a balanced diet?",
+        "How can I eat healthy?",
+        "What foods should I eat every day?",
+        "What are healthy snacks?",
+        "How much water should I drink?",
+        "What is good nutrition?",
+        "Tips for healthy eating"
+      ],
+      "responses": [
+        "A balanced diet includes a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats. Moderation and variety are key!",
+        "Healthy eating means enjoying a range of foods, staying hydrated, and limiting processed foods and added sugars.",
+        "Try to include fruits, vegetables, whole grains, and lean proteins in your meals. And don't forget to drink enough water!",
+        "For snacks, consider options like fruit, nuts, yogurt, or cut veggies."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "How much exercise do I need?",
+        "What are the benefits of exercise?",
+        "How can I start working out?",
+        "Tips for staying active",
+        "What is a good workout routine?",
+        "How often should I exercise?"
+      ],
+      "responses": [
+        "Regular exercise is great for your body and mind! Aim for at least 150 minutes of moderate activity per week, like brisk walking or cycling.",
+        "Exercise can boost your mood, improve sleep, and help prevent many health problems.",
+        "Start with activities you enjoy, like walking, dancing, or swimming. Even small amounts of movement add up!",
+        "Remember to listen to your body and gradually increase your activity level."
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "How much sleep do I need?",
+        "Tips for better sleep",
+        "Why can't I sleep?",
+        "How to fall asleep faster?",
+        "What causes insomnia?",
+        "How to improve sleep quality?"
+      ],
+      "responses": [
+        "Most adults need 7-9 hours of sleep per night. Good sleep is important for your health and well-being.",
+        "To improve sleep, try to keep a regular schedule, avoid screens before bed, and create a relaxing bedtime routine.",
+        "If you have trouble sleeping, try relaxation techniques like deep breathing or gentle stretching before bed.",
+        "If sleep problems persist, consider talking to a healthcare professional."
+      ]
+    },
+    {
+      "tag": "prevention",
+      "patterns": [
+        "How can I prevent getting sick?",
+        "Tips to avoid illness",
+        "How to boost my immune system?",
+        "How to stay healthy during flu season?",
+        "What are ways to prevent infection?"
+      ],
+      "responses": [
+        "Washing your hands regularly, eating a balanced diet, staying active, and getting enough sleep can all help keep you healthy.",
+        "To avoid illness, try to avoid close contact with sick people and keep your vaccinations up to date.",
+        "Taking care of your body and mind is the best way to support your immune system!",
+        "If you have specific concerns, feel free to ask me more."
+      ]
+    },
+    {
+      "tag": "child_health",
+      "patterns": [
+        "How can I keep my child healthy?",
+        "What are common childhood illnesses?",
+        "What vaccines does my child need?",
+        "How much sleep does a child need?",
+        "What to do if my child has a fever?"
+      ],
+      "responses": [
+        "Children need a balanced diet, regular activity, enough sleep, and routine checkups to stay healthy.",
+        "Common childhood illnesses include colds, ear infections, and stomach bugs. Most are mild, but always consult a doctor if you're concerned.",
+        "Vaccines are important for protecting children from serious diseases. Your healthcare provider can give you a schedule based on your child's age.",
+        "If your child has a fever, keep them comfortable and hydrated. If the fever is high or lasts more than a couple of days, see a doctor."
+      ]
+    },
+    {
+      "tag": "women_health",
+      "patterns": [
+        "What are common women's health issues?",
+        "How often should I get a pap smear?",
+        "What is PMS?",
+        "How to manage menstrual cramps?",
+        "What is menopause?",
+        "Tips for women's health"
+      ],
+      "responses": [
+        "Common women's health topics include menstrual health, reproductive health, and menopause. Regular checkups are important!",
+        "Pap smears are usually recommended every 3 years for women aged 21-65, but your doctor may suggest a different schedule.",
+        "PMS stands for premenstrual syndrome and can cause symptoms like mood changes, bloating, and cramps before your period.",
+        "For menstrual cramps, try a heating pad, gentle exercise, or over-the-counter pain relief like ibuprofen."
+      ]
+    },
+    {
+      "tag": "men_health",
+      "patterns": [
+        "What are common men's health issues?",
+        "How often should men get a checkup?",
+        "What is prostate health?",
+        "Tips for men's health",
+        "How to stay healthy as a man?"
+      ],
+      "responses": [
+        "Men's health topics include heart health, prostate health, and mental well-being. Regular checkups and a healthy lifestyle are key.",
+        "It's a good idea for men to have a checkup at least once a year, or as recommended by their doctor.",
+        "Prostate health is important, especially as men age. Talk to your doctor about screening options.",
+        "Staying active, eating well, and managing stress are all important for men's health."
+      ]
+    },
+    {
+      "tag": "chronic_conditions",
+      "patterns": [
+        "What is diabetes?",
+        "How to manage high blood pressure?",
+        "What is asthma?",
+        "Tips for living with a chronic illness",
+        "What is hypertension?",
+        "How to control cholesterol?"
+      ],
+      "responses": [
+        "Diabetes is a condition where your body has trouble regulating blood sugar. Managing diet, exercise, and medication is important.",
+        "High blood pressure (hypertension) can often be managed with lifestyle changes and medication. Regular monitoring is key.",
+        "Asthma is a condition that affects breathing. If you have asthma, follow your doctor's advice and keep your inhaler handy.",
+        "If you have a chronic condition, regular checkups and following your treatment plan are important."
+      ]
+    },
+    {
+      "tag": "skin_care",
+      "patterns": [
+        "How to take care of my skin?",
+        "Tips for healthy skin",
+        "What causes acne?",
+        "How to treat dry skin?",
+        "How to protect skin from sun?"
+      ],
+      "responses": [
+        "Taking care of your skin means keeping it clean, moisturized, and protected from the sun.",
+        "Acne can be caused by hormones, stress, or skin products. Gentle cleansing and non-comedogenic products can help.",
+        "For dry skin, use a gentle moisturizer and avoid hot showers.",
+        "Always use sunscreen when spending time outdoors to protect your skin from UV damage."
+      ]
+    }
+  ]
+}
