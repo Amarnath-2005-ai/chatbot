@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cura - Medical AI Assistant</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <div class="chat-container">
+      <header class="chat-header">
+        <div class="header-content">
+          <h1>Cura</h1>
+          <p>Your Medical AI Assistant</p>
+        </div>
+        <div class="theme-toggle">
+          <input type="checkbox" id="theme-switch" />
+          <label for="theme-switch" class="toggle-slider">
+            <i class="fas fa-sun"></i>
+            <i class="fas fa-moon"></i>
+          </label>
+        </div>
+      </header>
+
+      <div class="chat-messages" id="message-container">
+        <!-- Messages will appear here -->
+        <div class="welcome-message">
+          <div class="message-bubble bot">
+            <p>
+              Hello! I'm Cura, your medical assistant. How can I help you today?
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <form id="message-form">
+          <input
+            type="text"
+            id="user-input"
+            placeholder="Type your health question..."
+            autocomplete="off"
+          />
+          <button type="submit" id="send-button">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+        <div class="disclaimer">
+          <p>
+            Note: This is for informational purposes only. Consult a doctor for
+            medical advice.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/main.js"></script>
+    <footer style="text-align:center; margin-top: 16px; color: #888; font-size: 0.95em;">
+      Made with ❤️ by Amarnath
+    </footer>
+  </body>
+</html>

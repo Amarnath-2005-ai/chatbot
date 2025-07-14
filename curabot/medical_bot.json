@@ -1,0 +1,420 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Is anyone there?",
+        "Greetings",
+        "Hey there",
+        "Hi Cura",
+        "Hello Cura",
+        "Hey bot",
+        "Hi assistant",
+        "Yo",
+        "What's up?",
+        "Hey, are you there?",
+        "Can you help me?",
+        "I need some medical advice",
+        "Can I ask you a health question?",
+        "Is this Cura?",
+        "Are you a doctor?"
+      ],
+      "responses": [
+        "Hello! I'm Cura, your medical assistant. How can I help you today?",
+        "Hi there! I'm here to provide general health advice. What's on your mind?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Farewell",
+        "Catch you later",
+        "See ya",
+        "Talk to you later",
+        "Bye Cura",
+        "Good night",
+        "Goodbye assistant"
+      ],
+      "responses": [
+        "Goodbye! If you have more health questions, just ask. Take care!",
+        "Stay healthy! Feel free to return if you need medical advice."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank you so much",
+        "I appreciate it",
+        "Thanks a lot",
+        "Thank you Cura",
+        "Thanks for your help",
+        "Cheers",
+        "Much appreciated"
+      ],
+      "responses": [
+        "You're welcome! If you need more medical advice, just ask.",
+        "Glad I could help! Stay safe and healthy."
+      ]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "I'm sorry, I didn't understand that. Could you please rephrase?",
+        "Sorry, I can't understand. Can you provide more details?",
+        "I'm not sure I understand. Please ask another medical question."
+      ]
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "Who are you?",
+        "Tell me your name",
+        "Do you have a name?"
+      ],
+      "responses": [
+        "I am Cura, your virtual medical assistant.",
+        "You can call me Cura.",
+        "My name is Cura, and I'm here to help with health questions."
+      ]
+    },
+    {
+      "tag": "symptoms",
+      "patterns": [
+        "I have a headache",
+        "I'm feeling dizzy",
+        "I have a fever",
+        "My stomach hurts",
+        "I feel nauseous",
+        "I have a sore throat",
+        "I'm coughing",
+        "I have a cold",
+        "I feel tired",
+        "I have chills",
+        "I have a runny nose",
+        "I have a blocked nose",
+        "I feel weak",
+        "I have body aches",
+        "I have a rash",
+        "I have diarrhea",
+        "I have vomiting",
+        "I feel sick",
+        "I have pain in my chest",
+        "I have back pain",
+        "I'm not feeling well",
+        "I'm feeling unwell",
+        "I'm feeling sick",
+        "I don't feel good",
+        "I'm experiencing symptoms",
+        "Can you help me with my symptoms?",
+        "What should I do if I feel sick?",
+        "I'm not sure what's wrong with me",
+        "I feel off today",
+        "I'm feeling under the weather",
+        "I have some health issues",
+        "I feel pain in my body",
+        "I feel discomfort"
+      ],
+      "responses": [
+        "I'm sorry you're not feeling well. Could you describe your symptoms in more detail, including how long they've lasted and if anything makes them better or worse? For severe symptoms like chest pain or difficulty breathing, seek emergency help immediately."
+      ]
+    },
+    {
+      "tag": "covid19",
+      "patterns": [
+        "What are the symptoms of COVID-19?",
+        "Tell me about coronavirus",
+        "What should I do if I have COVID symptoms?",
+        "How do I know if I have COVID?",
+        "What are the signs of COVID?",
+        "What should I do if I test positive for COVID?",
+        "How can I protect myself from COVID?",
+        "What is coronavirus?",
+        "COVID precautions",
+        "COVID-19 advice"
+      ],
+      "responses": [
+        "Common COVID-19 symptoms include fever, cough, fatigue, and loss of taste/smell. If you suspect infection, get tested and isolate. For severe symptoms (trouble breathing), seek medical help immediately."
+      ]
+    },
+    {
+      "tag": "cuts_wounds",
+      "patterns": [
+        "How do I treat a cut?",
+        "First aid for bleeding",
+        "How to treat a minor wound?",
+        "What to do for a bleeding cut?",
+        "How to stop bleeding?",
+        "Treating a deep cut",
+        "How to clean a wound?",
+        "What to do for a gash?"
+      ],
+      "responses": [
+        "To treat a cut: **1)** Clean your hands with soap and water. **2)** Apply direct pressure with a clean cloth to stop bleeding. **3)** Once bleeding stops, gently rinse the cut with clean water. **4)** Apply a thin layer of antibiotic ointment if available. **5)** Cover with a sterile bandage or adhesive bandage. **Change the bandage daily** and keep the wound clean and dry. **Seek medical attention if:** the cut is deep (you can see fat or bone), longer than 1/2 inch, won't stop bleeding after 10 minutes of pressure, shows signs of infection (red, warm, swollen, pus), or if you haven't had a tetanus shot in the last 5-10 years."
+      ]
+    },
+    {
+      "tag": "burns",
+      "patterns": [
+        "What should I do for a burn?",
+        "How to treat a burn?",
+        "First aid for burns",
+        "Treating a burn wound",
+        "What to do for a hot water burn?",
+        "How to treat a cooking burn?"
+      ],
+      "responses": [
+        "For burns: **1)** Cool the burn under running cold water for 10-20 minutes. **2)** Remove jewelry/clothing from the area before swelling. **3)** Cover with a sterile, non-stick bandage. **4)** Take pain relievers if needed. **DO NOT:** use ice, butter, or break blisters. **Seek medical help for:** large burns, burns on face/hands/joints, or if skin appears white/charred."
+      ]
+    },
+    {
+      "tag": "nosebleed",
+      "patterns": [
+        "How to stop a nosebleed?",
+        "What to do for a bloody nose?",
+        "Nosebleed treatment",
+        "My nose is bleeding",
+        "How to treat nosebleed?"
+      ],
+      "responses": [
+        "For nosebleeds: **1)** Sit upright and lean slightly forward. **2)** Pinch the soft part of your nose (just below the bony bridge) for 10-15 minutes. **3)** Breathe through your mouth. **4)** Apply ice to the bridge of your nose. **Seek medical help if:** bleeding doesn't stop after 20 minutes, after a head injury, or if you're taking blood thinners."
+      ]
+    },
+    {
+      "tag": "fainting",
+      "patterns": [
+        "What to do if someone faints?",
+        "How to help someone who fainted?",
+        "First aid for fainting",
+        "Someone passed out",
+        "What to do when someone collapses?"
+      ],
+      "responses": [
+        "If someone faints: **1)** Check if they're responsive and breathing. **2)** Lay them on their back and elevate their legs 8-12 inches. **3)** Loosen tight clothing around neck/waist. **4)** Check for injuries from falling. **5)** If they don't wake up within 1 minute, call emergency services. **When they wake up:** have them sit up slowly and offer water."
+      ]
+    },
+    {
+      "tag": "sprains_bruises",
+      "patterns": [
+        "How to treat a sprain?",
+        "What to do for a bruise?",
+        "Treating a twisted ankle",
+        "How to treat a swollen joint?",
+        "First aid for sprains"
+      ],
+      "responses": [
+        "For sprains/bruises, use **RICE method**: **R**est the injured area. **I**ce for 15-20 minutes every 2-3 hours for first 48 hours. **C**ompression with elastic bandage (not too tight). **E**levation above heart level when possible. Take anti-inflammatory medication if needed. **Seek medical help if:** severe pain, inability to bear weight, or numbness."
+      ]
+    },
+    {
+      "tag": "proper_medication",
+      "patterns": [
+        "Can I take paracetamol?",
+        "Is it safe to take ibuprofen?",
+        "What medicine should I take for a headache?",
+        "Can I take antibiotics for a cold?",
+        "What can I take for a sore throat?",
+        "What can I take for a fever?",
+        "What can I take for a cold?",
+        "What can I take for stomach pain?",
+        "What medicine is good for cough?",
+        "What can I take for allergies?",
+        "What can I take for diarrhea?",
+        "What can I take for nausea?",
+        "What can I take for vomiting?",
+        "What can I take for body aches?",
+        "What can I take for back pain?",
+        "What can I take for muscle pain?"
+      ],
+      "responses": [
+        "For **headaches/fever**, paracetamol (acetaminophen) is safe (500mg every 4-6 hours, max 4g/day). Avoid ibuprofen if you have stomach/kidney issues. **Antibiotics don't work for colds**—rest and hydrate instead. For **allergies**, try antihistamines like cetirizine."
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "I'm feeling anxious",
+        "I feel depressed",
+        "I'm stressed",
+        "How can I improve my mental health?",
+        "Tips for anxiety",
+        "I feel sad",
+        "I feel lonely",
+        "How to deal with stress?",
+        "How to relax?",
+        "How to sleep better?",
+        "How to feel better emotionally?"
+      ],
+      "responses": [
+        "Mental health is important. Try deep breathing, exercise, or talking to someone you trust. If feelings persist, consider professional help. You're not alone. For crisis support, contact your local helpline."
+      ]
+    },
+    {
+      "tag": "emergency",
+      "patterns": [
+        "What should I do in a medical emergency?",
+        "Emergency number",
+        "Who should I call in an emergency?",
+        "Help, it's urgent",
+        "I need urgent help",
+        "What to do if someone is unconscious?",
+        "What to do if someone is not breathing?",
+        "What to do in case of heart attack?",
+        "What to do in case of stroke?"
+      ],
+      "responses": [
+        "🚨 **Call emergency services immediately** (911/US, 112/EU, 999/UK) for: chest pain, difficulty breathing, stroke symptoms (FAST: Face drooping, Arm weakness, Speech difficulty, Time to call). If unconscious, check breathing and start CPR if trained."
+      ]
+    },
+    {
+      "tag": "nutrition",
+      "patterns": [
+        "What is a balanced diet?",
+        "How can I eat healthy?",
+        "What foods should I eat every day?",
+        "What are healthy snacks?",
+        "How much water should I drink?",
+        "What is good nutrition?",
+        "Tips for healthy eating"
+      ],
+      "responses": [
+        "A **balanced diet** includes fruits, veggies, whole grains, lean proteins, and healthy fats. Drink ~2L water daily. Limit processed foods and sugar! Need personalized advice? Consult a nutritionist."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "How much exercise do I need?",
+        "What are the benefits of exercise?",
+        "How can I start working out?",
+        "Tips for staying active",
+        "What is a good workout routine?",
+        "How often should I exercise?"
+      ],
+      "responses": [
+        "Aim for **150 mins/week** of moderate exercise (walking, cycling). Start slow, choose activities you enjoy, and listen to your body. Always warm up to prevent injuries!"
+      ]
+    },
+    {
+      "tag": "sleep",
+      "patterns": [
+        "How much sleep do I need?",
+        "Tips for better sleep",
+        "Why can't I sleep?",
+        "How to fall asleep faster?",
+        "What causes insomnia?",
+        "How to improve sleep quality?"
+      ],
+      "responses": [
+        "Adults need **7-9 hours** of sleep. Improve sleep by: keeping a routine, avoiding screens before bed, and creating a dark/quiet environment. Chronic insomnia? Consult a doctor."
+      ]
+    },
+    {
+      "tag": "allergies",
+      "patterns": [
+        "I have allergies",
+        "My allergies are acting up",
+        "How to treat allergies?",
+        "Best allergy medicine",
+        "Seasonal allergy relief"
+      ],
+      "responses": [
+        "For allergies, try antihistamines (e.g., cetirizine), avoid triggers (pollen/dust), and use nasal saline rinses. Severe reactions (anaphylaxis)? Use an epinephrine pen and call emergency services."
+      ]
+    },
+    {
+      "tag": "pregnancy",
+      "patterns": [
+        "Pregnancy symptoms",
+        "What to avoid during pregnancy?",
+        "Is it safe to take medicine while pregnant?",
+        "Prenatal care tips"
+      ],
+      "responses": [
+        "During pregnancy: avoid alcohol, raw fish, and unpasteurized dairy. Always consult your OB-GYN before taking medications. Prenatal vitamins (folic acid/iron) are essential!"
+      ]
+    },
+    {
+      "tag": "chronic_conditions",
+      "patterns": [
+        "What is diabetes?",
+        "How to manage high blood pressure?",
+        "What is asthma?",
+        "Tips for living with arthritis",
+        "How to control cholesterol?"
+      ],
+      "responses": [
+        "**Diabetes**: Monitor blood sugar, eat balanced meals, and take prescribed meds. **High BP**: Reduce salt, exercise, and check pressure regularly. **Asthma**: Avoid triggers and keep inhalers handy. Always follow your doctor's plan."
+      ]
+    },
+    {
+      "tag": "skin_care",
+      "patterns": [
+        "How to treat acne?",
+        "What to do for sunburn?",
+        "I have a rash",
+        "Dry skin remedies",
+        "How to prevent sun damage?"
+      ],
+      "responses": [
+        "**Acne**: Use gentle cleansers and non-comedogenic products. **Sunburn**: Apply aloe vera and drink water. **Rashes**: Avoid scratching; see a doctor if persistent. **Sun protection**: Use SPF 30+ daily!"
+      ]
+    },
+    {
+      "tag": "child_health",
+      "patterns": [
+        "My child has a fever",
+        "Baby health tips",
+        "Is this normal for a toddler?",
+        "Vaccine schedule for kids"
+      ],
+      "responses": [
+        "**Child fever**: Give fluids and paracetamol (dose by weight). **Vaccines**: Follow CDC/pediatrician schedules. For unusual symptoms (e.g., rash + fever), seek medical help."
+      ]
+    },
+    {
+      "tag": "elderly_health",
+      "patterns": [
+        "Health tips for seniors",
+        "How to care for elderly parents?",
+        "Common elderly health issues"
+      ],
+      "responses": [
+        "Seniors should: focus on **bone health** (calcium/vitamin D), get **regular checkups**, and **stay active**. Watch for falls, memory changes, or medication interactions."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure I understand. Could you rephrase or ask another health-related question?",
+        "I'm designed to answer medical queries. Try asking about symptoms, medications, or general health tips."
+      ]
+    },
+    {
+      "tag": "disclaimer",
+      "patterns": [
+        "Are you a real doctor?",
+        "Is this professional advice?",
+        "Can I trust your medical answers?"
+      ],
+      "responses": [
+        "⚠️ **Disclaimer**: I'm an AI assistant providing general health information. Always consult a qualified healthcare professional for diagnosis or treatment. In emergencies, call local services immediately."
+      ]
+    }
+  ]
+}
